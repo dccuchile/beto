@@ -7,11 +7,13 @@ In this repo we open-source our SpanishBERT model.
 ## Tensorflow
 
 Uncased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com))
+
 Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com)) - Coming soon!
 
 ## PyTorch
 
 Uncased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com))
+
 Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com)) - Coming soon!
 
 # Example of use
