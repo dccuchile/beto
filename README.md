@@ -1,3 +1,18 @@
-# Beto - Spanish version of the BERT model
+# Beto is Spanish BERT
 
-Spanish version of the [BERT model](https://github.com/google-research/bert) (to be completed, hopefully soon...)
+# Download
+
+# Example of use
+
+# Evaluation
+
+# Training details
+
+## Corpora
+
+## Vocabulary
+
+# Acknowledgments
+
+# FAQ
+
