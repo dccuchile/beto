@@ -4,13 +4,13 @@ In this repo we open-source our SpanishBERT model.
 
 # Download
 
-## Tensorflow
+### Tensorflow
 
 Uncased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com))
 
 Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com)) - Coming soon!
 
-## PyTorch
+### PyTorch
 
 Uncased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com))
 
@@ -26,11 +26,11 @@ This is WIP: For now you can visit [beto-benchmarking](https://github.com/joseca
 
 # Training details
 
-## Corpora
+### Corpora
 
 We used the Spanish Unnanotated Corpora to train. For further details please visit the respective repo: [SUC](https://github.com/josecannete/spanish-corpora)
 
-## Vocabulary
+### Vocabulary
 
 # Acknowledgments
 
