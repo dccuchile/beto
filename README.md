@@ -36,3 +36,7 @@ We used the Spanish Unnanotated Corpora to train. For further details please vis
 
 # FAQ
 
+# References
+#### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([paper](https://arxiv.org/abs/1810.04805), [code](https://github.com/google-research/bert))
+
+#### 🤗 Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch ([paper](https://arxiv.org/abs/1910.03771), [code](https://github.com/huggingface/transformers))
