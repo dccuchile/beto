@@ -1,6 +1,6 @@
 # BETO is Spanish BERT
 
-In this repo we open-source our SpanishBERT model wich is a BERT-Base model trained on Spanish Corpora.
+In this repo we open-source our SpanishBERT model which is a BERT-Base model trained on Spanish Corpora.
 
 # Download
 
