@@ -18,7 +18,7 @@ Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.goo
 
 # Example of use
 
-For further details you can visit the amazing [🤗 Transformers](https://github.com/huggingface/transformers) repo.
+For further details you can visit the amazing [🤗 Transformers](https://github.com/huggingface/transformers) repo, starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html).
 
 # Evaluation
 
