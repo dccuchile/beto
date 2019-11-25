@@ -1,6 +1,6 @@
 # BETO is Spanish BERT
 
-In this repo we open-source our SpanishBERT model which is a BERT-Base model trained on Spanish Corpora.
+In this repo we open-source our SpanishBERT model which is a BERT-Base WWM (Whole Word Mask) model trained on Spanish Corpora.
 
 # Download
 
@@ -32,7 +32,11 @@ We used the Spanish Unnanotated Corpora to train. For further details please vis
 
 ### Vocabulary
 
+We used a vocabulary of about 31k BPE subwords. We used SentencePiece to construct it.
+
 # Acknowledgments
+
+Thanks to [Adereso](www.adere.so) for provide efforts and Cloud TPUs to train BETO. 
 
 # FAQ
 
