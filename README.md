@@ -36,7 +36,7 @@ For further details on how to use BETO you can visit the amazing [🤗Transforme
 
 ## Acknowledgments
 
-We thank [Adereso](www.adere.so) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
+We thank [Adereso](https://www.adere.so/) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
 that provided support for training BETO-cased.
 
 
