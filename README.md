@@ -1,46 +1,52 @@
-# BETO is Spanish BERT
+**This is work in progress**
 
-In this repo we open-source our SpanishBERT model which is a BERT-Base WWM (Whole Word Mask) model trained on Spanish Corpora.
+# BETO: Spanish BERT
 
-# Download
+BETO is a [BERT model](https://github.com/google-research/bert) trained on a [big Spanish corpus](https://github.com/josecannete/spanish-corpora). BETO is of size similar to a BERT-Base and was trained with the Whole Word Masking technique. Below you find Tensorflow and Pytorch checkpoints for the uncased and cased versions, as well as some results for Spanish benchmarks comparing BETO with [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md) as well as other (not BERT-based) models.
 
-### Tensorflow
+## Download
 
-Uncased BETO ([vocab](https://users.dcc.uchile.cl/~jperez/beto/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/bert_config.json), [weights](https://users.dcc.uchile.cl/~jperez/beto/tensorflow_weights.tar.gz))
+| |Tensorflow|Pytorch|
+|-|:--------:|:-----:|
+|BETO uncased|[weights](https://users.dcc.uchile.cl/~jperez/beto/tensorflow_weights.tar.gz) [vocab](https://users.dcc.uchile.cl/~jperez/beto/vocab.txt) [config](https://users.dcc.uchile.cl/~jperez/beto/bert_config.json) | [weights](https://users.dcc.uchile.cl/~jperez/beto/pytorch_weights.tar.gz) [vocab](https://users.dcc.uchile.cl/~jperez/beto/vocab.txt) [config](https://users.dcc.uchile.cl/~jperez/beto/bert_config.json) |
+|BETO cased| comming soon | comming soon |
 
-Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com)) - Coming soon!
+All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece.
 
-### PyTorch
+## Benchmarks
 
-Uncased BETO ([vocab](https://users.dcc.uchile.cl/~jperez/beto/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/bert_config.json), [weights](https://users.dcc.uchile.cl/~jperez/beto/pytorch_weights.tar.gz))
+The following table shows some BETO results in the Spanish version of every task. 
+We compare BETO (cased and uncased) with the Best Multilingual-BERT result that 
+we found in the literature (as of October 2019) highlighting 
+the results whenever BETO ourperform Multilingual BERT for the Spanish task. 
+The table also shows some alternative methods for the same tasks (not necessarily BERT-based methods).
+References for all methods can be found [here](#references).
 
-Cased BETO ([vocab](www.google.com), [config](www.google.com), [weights](www.google.com)) - Coming soon!
+|Task   | BETO-cased    | BETO-uncased  | Best Multilingual BERT    | Other results                  |
+|-------|--------------:|--------------:|--------------------------:|-------------------------------:|
+|XNLI   | -----         | **80.15**  | 78.50 [2]| 80.80 [5], 77.80 [1], 73.15 [4]|
+|POS    | -----         | **98.44**  | 97.10 [2]| 98.91 [6], 96.71 [3]           |
+|PAWS-X | -----         | 89.55 | 90.70 [8]|
+|NER-C  | -----         | 81.70                          | 87.38 [2]| 87.18 [3]                      |
 
-# Example of use
+## Example of use
 
-For further details you can visit the amazing [🤗 Transformers](https://github.com/huggingface/transformers) repo, starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html).
+For further details on how to use BETO you can visit the amazing [🤗Transformers repo](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html).
 
-# Evaluation
 
-This is WIP: For now you can visit [beto-benchmarking](https://github.com/josecannete/beto-benchmarking) to see the progress.
+## Acknowledgments
 
-# Training details
+We thank [Adereso](www.adere.so) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
+that provided support for training BETO-cased.
 
-### Corpora
 
-We used the Spanish Unnanotated Corpora to train. For further details please visit the respective repo: [SUC](https://github.com/josecannete/spanish-corpora)
+## References
 
-### Vocabulary
-
-We used a vocabulary of about 31k BPE subwords. We used SentencePiece to construct it.
-
-# Acknowledgments
-
-Thanks to [Adereso](www.adere.so) for provide efforts and Cloud TPUs to train BETO. 
-
-# FAQ
-
-# References
-#### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([paper](https://arxiv.org/abs/1810.04805), [code](https://github.com/google-research/bert))
-
-#### 🤗 Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch ([paper](https://arxiv.org/abs/1910.03771), [code](https://github.com/huggingface/transformers))
+* [1] [Original Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md)
+* [2] [Multilingual BERT on "Beto, Bentz, Becas: The Surprising Cross-Lingual Effectiveness of BERT"](https://arxiv.org/pdf/1904.09077.pdf)
+* [3] [Multilingual BERT on "How Multilingual is Multilingual BERT?"](https://arxiv.org/pdf/1906.01502.pdf)
+* [4] [LASER](https://arxiv.org/abs/1812.10464)
+* [5] [XLM (MLM+TLM)](https://arxiv.org/pdf/1901.07291.pdf)
+* [6] [UDPipe on "75 Languages, 1 Model: Parsing Universal Dependencies Universally"](https://arxiv.org/pdf/1904.02099.pdf)
+* [7] [Multilingual BERT on "Sequence Tagging with Contextual and Non-Contextual Subword Representations: A Multilingual Evaluation"](https://arxiv.org/pdf/1906.01569.pdf)
+* [8] [Multilingual BERT on "PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase Identification"](https://arxiv.org/abs/1908.11828)
