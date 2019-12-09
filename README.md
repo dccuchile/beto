@@ -9,7 +9,7 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 | | | | |
 |-|:--------:|:-----:|:----:|
 |BETO uncased|[tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/uncased/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/uncased/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/uncased/vocab.txt) [config](https://users.dcc.uchile.cl/~jperez/beto/uncased/bert_config.json) |
-|BETO cased| [tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/cased/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/cased/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/cased/vocab.txt) [config](https://users.dcc.uchile.cl/~jperez/beto/cased/bert_config.json) |
+|BETO cased| [tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/cased/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/cased/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/cased/vocab.txt) [config](https://users.dcc.uchile.cl/~jperez/beto/cased/config.json) |
 
 All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece.
 
