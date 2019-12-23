@@ -11,7 +11,7 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 |BETO uncased|[tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/bert_config.json) |
 |BETO cased| [tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/config.json) |
 
-All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece.
+All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece and were trained for 2M steps. 
 
 ## Benchmarks
 
