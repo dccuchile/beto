@@ -28,7 +28,7 @@ References for all methods can be found [here](#references).
 |POS    | **98.97**     | **98.44**     | 97.10 [2]                 | 98.91 [6], 96.71 [3]           |
 |PAWS-X | 89.05         | 89.55         | 90.70 [8]                 |
 |NER-C  | 87.24         | 82.67         | 87.38 [2]                 | 87.18 [3]                      |
-|MLDoc  | 95.27         | **96.12**     | 95.70 [2]                 | 88.75 [4]                      |
+|MLDoc  | [95.60](https://github.com/gchaperon/beto-benchmarks/tree/master/MLDoc)         | [**96.12**](https://github.com/gchaperon/beto-benchmarks/tree/master/MLDoc)     | 95.70 [2]                 | 88.75 [4]                      |
 
 ## Example of use
 
