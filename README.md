@@ -8,8 +8,8 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 
 | | | | |
 |-|:--------:|:-----:|:----:|
-|BETO uncased|[tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/bert_config.json) |
-|BETO cased| [tensorflow weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/tensorflow_weights.tar.gz) | [pytorch weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/config.json) |
+|BETO uncased|[tensorflow_weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/tensorflow_weights.tar.gz) | [pytorch_weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/bert_config.json) |
+|BETO cased| [tensorflow_weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/tensorflow_weights.tar.gz) | [pytorch_weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/pytorch_weights.tar.gz) | [vocab](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/vocab.txt), [config](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/config.json) |
 
 All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece and were trained for 2M steps. 
 
@@ -17,18 +17,17 @@ All models use a vocabulary of about 31k BPE subwords constructed using Sentence
 
 The following table shows some BETO results in the Spanish version of every task. 
 We compare BETO (cased and uncased) with the Best Multilingual BERT results that 
-we found in the literature (as of October 2019) highlighting 
-the results whenever BETO ourperform Multilingual BERT for the Spanish task. 
+we found in the literature (as of October 2019). 
 The table also shows some alternative methods for the same tasks (not necessarily BERT-based methods).
 References for all methods can be found [here](#references).
 
 |Task   | BETO-cased    | BETO-uncased  | Best Multilingual BERT    | Other results                  |
 |-------|--------------:|--------------:|--------------------------:|-------------------------------:|
-|XNLI   | -----         | **80.15**     | 78.50 [2]                 | 80.80 [5], 77.80 [1], 73.15 [4]|
-|POS    | **98.97**     | **98.44**     | 97.10 [2]                 | 98.91 [6], 96.71 [3]           |
-|PAWS-X | 89.05         | 89.55         | 90.70 [8]                 |
-|NER-C  | 87.24         | 82.67         | 87.38 [2]                 | 87.18 [3]                      |
-|MLDoc  | [95.60](https://github.com/gchaperon/beto-benchmarks/tree/master/MLDoc)         | [**96.12**](https://github.com/gchaperon/beto-benchmarks/tree/master/MLDoc)     | 95.70 [2]                 | 88.75 [4]                      |
+|[POS](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1827)    | **98.97**     | 98.44     | 97.10 [2]                 | 98.91 [6], 96.71 [3]           |
+|[NER-C](https://www.kaggle.com/nltkdata/conll-corpora)  | 87.24         | 82.67         | 87.38 [2]                 | 87.18 [3]                      |
+|[MLDoc](https://github.com/facebookresearch/MLDoc)  | 95.60        | **96.12**     | 95.70 [2]                 | 88.75 [4]                      |
+|[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 89.05         | 89.55         | 90.70 [8]                 |
+|[XNLI](https://github.com/facebookresearch/XNLI)   | (soon)         | **80.15**     | 78.50 [2]                 | 80.80 [5], 77.80 [1], 73.15 [4]|
 
 ## Example of use
 
