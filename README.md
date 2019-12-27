@@ -31,13 +31,16 @@ References for all methods can be found [here](#references).
 
 ## Example of use
 
-For further details on how to use BETO you can visit the amazing [🤗Transformers repo](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html).
+For further details on how to use BETO you can visit the [🤗Huggingface Transformers library](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html). 
+BETO models can be accessed simply as [`'dccuchile/bert-base-spanish-wwm-cased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) and [`'dccuchile/bert-base-spanish-wwm-cased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) by using the Transformers library. 
+(We will soon add a more detailed step-by-step tutorial in Spanish for newcommers 😉) 
 
 
 ## Acknowledgments
 
 We thank [Adereso](https://www.adere.so/) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
-that provided support for training BETO-cased.
+that provided support for training BETO-cased. 
+
 
 
 ## References
