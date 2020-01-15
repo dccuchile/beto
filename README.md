@@ -24,8 +24,8 @@ References for all methods can be found [here](#references).
 |Task   | BETO-cased    | BETO-uncased  | Best Multilingual BERT    | Other results                  |
 |-------|--------------:|--------------:|--------------------------:|-------------------------------:|
 |[POS](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1827)    | **98.97**     | 98.44     | 97.10 [2]                 | 98.91 [6], 96.71 [3]           |
-|[NER-C](https://www.kaggle.com/nltkdata/conll-corpora)  | **88.43**         | 82.67         | 87.38 [2]                 | 87.18 [3]                      |
-|[MLDoc](https://github.com/facebookresearch/MLDoc)  | 95.60        | **96.12**     | 95.70 [2]                 | 88.75 [4]                      |
+|[NER-C](https://www.kaggle.com/nltkdata/conll-corpora)  | [**88.43**](https://github.com/gchaperon/beto-benchmarks/blob/master/conll2002/dev_results_beto-cased_conll2002.txt)         | 82.67         | 87.38 [2]                 | 87.18 [3]                      |
+|[MLDoc](https://github.com/facebookresearch/MLDoc)  | [95.60](https://github.com/gchaperon/beto-benchmarks/blob/master/MLDoc/dev_results_beto-cased_mldoc.txt)        | [**96.12**](https://github.com/gchaperon/beto-benchmarks/blob/master/MLDoc/dev_results_beto-uncased_mldoc.txt)     | 95.70 [2]                 | 88.75 [4]                      |
 |[PAWS-X](https://github.com/google-research-datasets/paws/tree/master/pawsx) | 89.05         | 89.55         | 90.70 [8]                 |
 |[XNLI](https://github.com/facebookresearch/XNLI)   | (soon)         | **80.15**     | 78.50 [2]                 | 80.80 [5], 77.80 [1], 73.15 [4]|
 
