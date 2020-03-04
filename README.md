@@ -42,7 +42,18 @@ An example on how to download and use the models in this page can be found in [t
 We thank [Adereso](https://www.adere.so/) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
 that provided support for training BETO-cased. 
 
+## Citation
 
+To cite this resource in a publication please use the following:
+
+```
+@inproceedings{CaneteCFP2020,
+  title={Spanish Pre-Trained BERT Model and Evaluation Data},
+  author={Cañete, José and Chaperon, Gabriel and Fuentes, Rodrigo and Pérez, Jorge},
+  booktitle={to appear in PML4DC at ICLR 2020},
+  year={2020}
+}
+```
 
 ## References
 
