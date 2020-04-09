@@ -40,7 +40,7 @@ An example on how to download and use the models in this page can be found in [t
 ## Acknowledgments
 
 We thank [Adereso](https://www.adere.so/) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
-that provided support for training BETO-cased. 
+that provided support for training BETO-cased. Also thanks to Google for helping us with the [TensorFlow Research Cloud](https://www.tensorflow.org/tfrc) program.
 
 ## Citation
 
