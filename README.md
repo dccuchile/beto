@@ -44,6 +44,8 @@ that provided support for training BETO-cased. Also thanks to Google for helping
 
 ## Citation
 
+[Spanish Pre-Trained BERT Model and Evaluation Data](https://users.dcc.uchile.cl/~jperez/papers/pml4dc2020.pdf)
+
 To cite this resource in a publication please use the following:
 
 ```
