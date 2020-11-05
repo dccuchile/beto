@@ -51,7 +51,7 @@ To cite this resource in a publication please use the following:
 ```
 @inproceedings{CaneteCFP2020,
   title={Spanish Pre-Trained BERT Model and Evaluation Data},
-  author={Cañete, José and Chaperon, Gabriel and Fuentes, Rodrigo, Ho, Jou-Hui and Kang, Hojin and Pérez, Jorge},
+  author={Cañete, José and Chaperon, Gabriel and Fuentes, Rodrigo and Ho, Jou-Hui and Kang, Hojin and Pérez, Jorge},
   booktitle={PML4DC at ICLR 2020},
   year={2020}
 }
