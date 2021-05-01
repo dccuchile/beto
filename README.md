@@ -1,4 +1,4 @@
-** **This is work in progress** **
+** **This work is in progress** **
 
 # BETO: Spanish BERT
 
