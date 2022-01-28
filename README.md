@@ -1,5 +1,3 @@
-** **This is work in progress** **
-
 # BETO: Spanish BERT
 
 BETO is a [BERT model](https://github.com/google-research/bert) trained on a [big Spanish corpus](https://github.com/josecannete/spanish-corpora). BETO is of size similar to a BERT-Base and was trained with the Whole Word Masking technique. Below you find Tensorflow and Pytorch checkpoints for the uncased and cased versions, as well as some results for Spanish benchmarks comparing BETO with [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md) as well as other (not BERT-based) models.
@@ -56,6 +54,11 @@ To cite this resource in a publication please use the following:
   year={2020}
 }
 ```
+
+
+## License Disclaimer
+The license CC BY 4.0 best describes our intentions for our work. However we are not sure that all the datasets used to train BETO have licenses compatible with CC BY 4.0 (specially for commercial use). Please use at your own discretion and verify that the licenses of the original text resources match your needs.
+
 
 ## References
 
