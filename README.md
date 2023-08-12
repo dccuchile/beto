@@ -4,10 +4,10 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 
 ## Download
 
-| | | | |
-|-|:--------:|:-----:|:----:|
-|BETO uncased|[tensorflow_weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/tensorflow_weights.tar.gz) | [pytorch_weights](https://users.dcc.uchile.cl/~jperez/beto/uncased_2M/pytorch_weights.tar.gz) | [vocab](./config/uncased_2M/vocab.txt), [config](./config/uncased_2M/config.json) |
-|BETO cased| [tensorflow_weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/tensorflow_weights.tar.gz) | [pytorch_weights](https://users.dcc.uchile.cl/~jperez/beto/cased_2M/pytorch_weights.tar.gz) | [vocab](./config/cased_2M/vocab.txt), [config](./config/cased_2M/config.json) |
+|              |                  HuggingFace Model Repository                  |
+|:------------:|:--------------------------------------------------------------:|
+| BETO uncased | [bert-base-spanish-wwm-uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) |
+|  BETO cased  |  [bert-base-spanish-wwm-cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)  |
 
 All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece and were trained for 2M steps. 
 
@@ -42,7 +42,7 @@ that provided support for training BETO-cased. Also thanks to Google for helping
 
 ## Citation
 
-[Spanish Pre-Trained BERT Model and Evaluation Data](https://users.dcc.uchile.cl/~jperez/papers/pml4dc2020.pdf)
+[Spanish Pre-Trained BERT Model and Evaluation Data](https://arxiv.org/abs/2308.02976)
 
 To cite this resource in a publication please use the following:
 
