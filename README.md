@@ -29,7 +29,7 @@ References for all methods can be found [here](#references).
 
 ## Example of use
 
-For further details on how to use BETO you can visit the [🤗Huggingface Transformers library](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/transformers/quickstart.html). 
+For further details on how to use BETO you can visit the [🤗Huggingface Transformers library](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/docs/transformers/tasks/sequence_classification). 
 BETO models can be accessed simply as [`'dccuchile/bert-base-spanish-wwm-cased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) and [`'dccuchile/bert-base-spanish-wwm-uncased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) by using the Transformers library. 
 An example on how to use the models in this page can be found in [this colab notebook](https://colab.research.google.com/drive/1pYOYsCU59GBOwztkWCw5PTsqBiJbRy4S?usp=sharing).
 
