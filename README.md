@@ -6,8 +6,8 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 
 |              |                  HuggingFace Model Repository                  |
 |:------------:|:--------------------------------------------------------------:|
-| BETO uncased | [bert-base-spanish-wwm-uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) |
-|  BETO cased  |  [bert-base-spanish-wwm-cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)  |
+| BETO uncased | [dccuchile/bert-base-spanish-wwm-uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) |
+|  BETO cased  |  [dccuchile/bert-base-spanish-wwm-cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)  |
 
 All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece and were trained for 2M steps. 
 
