@@ -1,10 +1,6 @@
 # BETO: Spanish BERT
 
-Nota: si deseas leer la versión de este README en español, puedes ingresar al archivo README-spa.
-
-***
-
-BETO is a [BERT model](https://github.com/google-research/bert) trained on a [big Spanish corpus](https://github.com/josecannete/spanish-corpora). BETO is of size similar to a BERT-Base and was trained with the Whole Word Masking technique. Below you find Tensorflow and Pytorch checkpoints for the uncased and cased versions, as well as some results for Spanish benchmarks comparing BETO with [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md) as well as other (not BERT-based) models.
+BETO es un [modelo BERT](https://github.com/google-research/bert) entrenado sobre un gran [corpus en Español](https://github.com/josecannete/spanish-corpora). BETO es de tamaño similar a Bert-Base y fue entrenado con la técnica Whole Word Masking. A continuación, encontrarás checkpoints para Tensorflow y Pytorch de las versiones uncased y cased, así como algunos resultados de pruebas comparativas en Español que comparan BETO con [Multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md), así como otros modelos (no BERT-Based).
 
 ## Download
 
@@ -13,15 +9,15 @@ BETO is a [BERT model](https://github.com/google-research/bert) trained on a [bi
 | BETO uncased | [dccuchile/bert-base-spanish-wwm-uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) |
 |  BETO cased  |  [dccuchile/bert-base-spanish-wwm-cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)  |
 
-All models use a vocabulary of about 31k BPE subwords constructed using SentencePiece and were trained for 2M steps. 
+Todos los modelos utilizan un vocabulario de aproximadamente 31.000 subpalabras BPE construidas con SentencePiece y fueron entrenados para 2 millones de steps.
 
 ## Benchmarks
 
-The following table shows some BETO results in the Spanish version of every task. 
-We compare BETO (cased and uncased) with the Best Multilingual BERT results that 
-we found in the literature (as of October 2019). 
-The table also shows some alternative methods for the same tasks (not necessarily BERT-based methods).
-References for all methods can be found [here](#references).
+La siguiente tabla muestra algunos resultados BETO en la versión en español de cada tarea.
+Comparamos BETO (cased y uncased) con los mejores resultados de Multilingual BERT que
+encontramos en la literatura (a octubre del 2019).
+La tabla también muestra algunos métodos alternativos para las mismas tareas (no necesariamente BERT-based).
+Las referencias de todos los métodos se pueden encontrar [aquí](#references).
 
 |Task   | BETO-cased    | BETO-uncased  | Best Multilingual BERT    | Other results                  |
 |-------|--------------:|--------------:|--------------------------:|-------------------------------:|
@@ -33,21 +29,18 @@ References for all methods can be found [here](#references).
 
 ## Example of use
 
-For further details on how to use BETO you can visit the [🤗Huggingface Transformers library](https://github.com/huggingface/transformers), starting by the [Quickstart section](https://huggingface.co/docs/transformers/tasks/sequence_classification). 
-BETO models can be accessed simply as [`'dccuchile/bert-base-spanish-wwm-cased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) and [`'dccuchile/bert-base-spanish-wwm-uncased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) by using the Transformers library. 
-An example on how to use the models in this page can be found in [this colab notebook](https://colab.research.google.com/drive/1pYOYsCU59GBOwztkWCw5PTsqBiJbRy4S?usp=sharing).
+Para obtener más detalles sobre cómo usar BETO, puede visitar la biblioteca [🤗Huggingface Transformers](https://github.com/huggingface/transformers), comenzando por la [Quickstart section](https://huggingface.co/docs/transformers/tasks/sequence_classification). Se puede acceder a los modelos BETO simplemente como [`'dccuchile/bert-base-spanish-wwm-cased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased) y [`'dccuchile/bert-base-spanish-wwm-uncased'`](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) utilizando la biblioteca Transformers. Un ejemplo de como usar los modelos en esta página se puede encontrar, en este [colab notebook](https://colab.research.google.com/drive/1pYOYsCU59GBOwztkWCw5PTsqBiJbRy4S?usp=sharing).
 
 
 ## Acknowledgments
 
-We thank [Adereso](https://www.adere.so/) for kindly providing support for traininig BETO-uncased, and the [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/)
-that provided support for training BETO-cased. Also thanks to Google for helping us with the [TensorFlow Research Cloud](https://www.tensorflow.org/tfrc) program.
+Agradecemos a [Adereso](https://www.adere.so/) por brindar amablemente apoyo para entrenar BETO-uncased, y el [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/) que brindó apoyo para el entrenamiento de BETO-cased. También gracias a Google por ayudarnos con el programa [TensorFlow Research Cloud](https://www.tensorflow.org/tfrc). 
 
 ## Citation
 
 [Spanish Pre-Trained BERT Model and Evaluation Data](https://arxiv.org/abs/2308.02976)
 
-To cite this resource in a publication please use the following:
+Para citar este recurso en una publicación por favor use lo siguiente:
 
 ```
 @inproceedings{CaneteCFP2020,
@@ -60,7 +53,7 @@ To cite this resource in a publication please use the following:
 
 
 ## License Disclaimer
-The license CC BY 4.0 best describes our intentions for our work. However we are not sure that all the datasets used to train BETO have licenses compatible with CC BY 4.0 (specially for commercial use). Please use at your own discretion and verify that the licenses of the original text resources match your needs.
+La licencia CC BY 4.0 describe mejor nuestras intenciones para nuestro trabajo. Sin embargo, no estamos seguros de que todos los conjuntos de datos utilizados para entrenar BETO tengan licencias compatibles con CC BY 4.0 (especialmente para uso comercial). Por favor, use a su propia discreción y verifique que las licencias de los recursos de texto originales coincidan con sus necesidades.
 
 
 ## References
