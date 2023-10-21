@@ -34,7 +34,7 @@ Para obtener más detalles sobre cómo usar BETO, puede visitar la biblioteca [�
 
 ## Acknowledgments
 
-Agradecemos a [Adereso](https://www.adere.so/) por brindar amablemente apoyo para entrenar BETO-uncased, y el [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/) que brindo apoyo para el entrenamiento de BETO-cased. También gracias a Google por ayudarnos con el programa [TensorFlow Research Cloud](https://www.tensorflow.org/tfrc). 
+Agradecemos a [Adereso](https://www.adere.so/) por brindar amablemente apoyo para entrenar BETO-uncased, y el [Millennium Institute for Foundational Research on Data](https://imfd.cl/en/) que brindó apoyo para el entrenamiento de BETO-cased. También gracias a Google por ayudarnos con el programa [TensorFlow Research Cloud](https://www.tensorflow.org/tfrc). 
 
 ## Citation
 
